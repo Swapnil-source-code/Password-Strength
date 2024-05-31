@@ -65,5 +65,17 @@ button img{
 }
 
 
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 768px) {
+  .input-box {
+    width: 350px;
+  }
+}
 
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+  .input-box {
+    width: 300px;
+  }
+}
 
